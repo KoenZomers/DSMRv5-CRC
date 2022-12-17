@@ -4,6 +4,27 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>KoenZomers.DSMRv5CrcCalculator</Title>
+    <Authors>Koen Zomers</Authors>
+    <Description>CRC Calculator for DSMRv5 telegrams written in C# using .NET 6. It can be used to validate if messages (telegrams) received from a DSMR supporting utilities meter have come accross correctly by comparing the four letter CRC at the end of the telegram with the CRC that will be calculated over the provided telegram content.</Description>
+    <Copyright>Koen Zomers</Copyright>
+    <PackageProjectUrl>https://github.com/KoenZomers/DSMRv5-CRC</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/KoenZomers/DSMRv5-CRC</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludeSymbols>False</IncludeSymbols>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
