@@ -2,6 +2,16 @@
 
 CRC Calculator for DSMRv5 telegrams written in C# using .NET 6. It can be used to validate if messages (telegrams) received from a DSMR supporting utilities meter have come accross correctly by comparing the four letter CRC at the end of the telegram with the CRC that will be calculated over the provided telegram content.
 
+## Usage
+
+This source code contains a library project containing the static class `KoenZomers.Tools.DSMRv5CrcCalculator` which contains these static methods:
+
+1. CalculateChecksum - Generates the CRC checksum over the content of a provided DSMR message
+1. DefineChecksum - Returns the CRC checksum as it is stated in the provided DSMR message
+1. Validate - Combines the two above and returns a boolean if the provided DSMR message is valid
+
+The solution file also contains a simple test console project which you can use to easily try this code for yourself.
+
 ## Version History
 
 Version 1.0.0.0 - December 18, 2022
