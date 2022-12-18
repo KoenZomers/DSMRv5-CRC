@@ -12,6 +12,12 @@ This source code contains a library project containing the static class `KoenZom
 
 The solution file also contains a simple test console project which you can use to easily try this code for yourself.
 
+## NuGet Package
+
+Available as a NuGet package:
+
+[KoenZomers.DSMRv5CrcCalculator](https://www.nuget.org/packages/KoenZomers.DSMRv5CrcCalculator)
+
 ## Version History
 
 Version 1.0.0.0 - December 18, 2022
