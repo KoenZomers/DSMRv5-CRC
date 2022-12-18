@@ -14,6 +14,7 @@
     <RepositoryUrl>https://github.com/KoenZomers/DSMRv5-CRC</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <IncludeSymbols>False</IncludeSymbols>
+    <PackageId>KoenZomers.DSMRv5CrcCalculator</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
