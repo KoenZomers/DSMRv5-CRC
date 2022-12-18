@@ -20,7 +20,7 @@ Available as a NuGet package:
 
 ## Version History
 
-Version 1.0.0.0 - December 18, 2022
+[Version 1.0.0.0](https://www.nuget.org/packages/KoenZomers.DSMRv5CrcCalculator/1.0.0) - December 18, 2022
 
 - Initial version
 
